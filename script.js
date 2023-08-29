@@ -20,7 +20,7 @@ for (const mine of mines) {
     const node = document.createTextNode("You lose!! You had a score of " + score);
     para.appendChild(node);
     const elemen = document.getElementById("ja");
-    elemen.appendChild(para);const but= document.createElement("button"); but.textContent="Reload"; elemen.appendChild(but); but.addEventListener('click',()=>{location.reload()});}
+    elemen.appendChild(para);const but= document.createElement("button"); but.textContent="Reload"; elemen.appendChild(but); but.addEventListener('click',()=>{location.reload()}); }
   })
 }
 
