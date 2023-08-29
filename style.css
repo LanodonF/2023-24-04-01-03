@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: deepskyblue;
+}
+#garden {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10%;
+  border-width: 1px;
+  border-style:solid;
+  border-color: black;
+  background-color: gainsboro;
+}
+
+.plot{
+  border: 1px;
+  border-style:solid;
+  border-color: black;
+  cursor:pointer;
+}
