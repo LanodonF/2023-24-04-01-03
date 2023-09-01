@@ -3,19 +3,24 @@ html {
   width: 100%;
   background-color: deepskyblue;
 }
-#garden {
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-  grid-template-rows: 10%;
-  border-width: 1px;
-  border-style:solid;
-  border-color: black;
-  background-color: gainsboro;
+
+
+.row{
+  display:grid;
+  grid-template-rows: 90px;
+	grid-template-columns: auto;
+	grid-auto-flow: column;
 }
 
+
 .plot{
-  border: 1px;
-  border-style:solid;
-  border-color: black;
-  cursor:pointer;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid 1px black;
+  background-color:white;
+}
+
+#main{
+  margin:10px;
 }
